@@ -70,7 +70,7 @@
 
         // La URL de tu manifiesto. Vuelve a verificar si es la correcta y accesible.
         // Si sigue sin funcionar, PRUEBA CON UNA DE LAS URLS DE PRUEBA que te di antes.
-        const manifestUri = 'https://sam-py-edge05.tigo.com.py/ccur-session/7f6e3fdb59994965abed8dd5c6faccf517487270122031b65a320aeed11ebae01d90082191a3c1a5MrOL1SVX7zpX7GuV2tRmo/VMX4_widevine/rolling-buffer/TigoSportsHD/TigoSportsHD/transmux/index.mpd';
+        const manifestUri = 'https://sam-py-edge05.tigo.com.py/ccur-session/7f6e3fdb59994965abed8dd5c6faccf517487270122031b65a320aeed11ebae01d90082191a3c1a5MrOL1SVX7zpX7GuV2tRmo/VMX4_widevine/rolling-buffer/TigoSportsPlusHD/TigoSportsPlusHD/transmux/index.mpd';
 
         async function initApp() {
             logToKodular('1. Aplicación HTML cargada y DOM listo. Iniciando Shaka Player...');
@@ -97,7 +97,7 @@
             player.configure({
                 drm: {
                     clearKeys: {
-                        "b52a7fa91fb031a3d6f2a505414b6fcd": "a655a22f9c0a66574b5d95dee212fbf9",
+                        "a8d8bfb76315e4fc6ba1328e1d8870bd": "eb27c40de4c406980e473fb6233fc897",
                     }
                 }
             });
